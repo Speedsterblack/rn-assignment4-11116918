@@ -7,7 +7,7 @@ export default function LoginScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Jobizz</Text>
       <Text style={styles.subtitle}>Welcome Back 👋</Text>
-      <Text style={styles.description}>Let’s log in. Apply to jobs!</Text>
+      <Text style={styles.description}>Let's log in. Apply to jobs!</Text>
 
       <TextInput style={styles.input} placeholder="Name" />
       <TextInput style={styles.input} placeholder="Email" keyboardType="email-address" />
@@ -31,7 +31,7 @@ export default function LoginScreen() {
       </View>
 
       <Text style={styles.registerText}>
-        Haven’t an account? <Text style={styles.registerLink}>Register</Text>
+        Haven't an account? <Text style={styles.registerLink}>Register</Text>
       </Text>
     </View>
   );
